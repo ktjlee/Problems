@@ -10,7 +10,7 @@ class Solution(object):
     def makeIntToList(self, integer):
         l = []
         while integer > 0:
-            addition = integer%10
+            addition =  integer%10
             l.append(addition)
             integer = integer//10
         ll = []
